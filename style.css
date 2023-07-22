@@ -1,0 +1,288 @@
+body{
+    background-color:#F1E7E7;
+  
+    
+}
+  .gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 4s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.Pan{
+    height:40vh;
+    width:100%;
+    border-radius:15px;
+    display:flex;
+    position: relative;
+    bottom:10px;
+    right:10px;
+    padding-left:20px;
+    justify-content: center;
+
+    
+    
+
+}
+
+
+.Angry-Cat{
+    position: relative;
+    bottom:4vh;
+    border-radius:60%;
+    height:35vh;
+    border:solid;
+    border-right: 0px; 
+    border-top: 0px;
+    border-width: 10px;
+
+    
+    
+}
+.Nav{
+    display:flex;
+    position: relative;
+    bottom:35px;
+    height:15vh;
+    width:75%;
+    border-radius:10px;
+    align-self: center;
+   
+     justify-content: center;
+    
+     
+}
+#learning{
+display: flex;
+justify-content: center;
+}
+
+.Hi{
+    
+    height:75vh;
+    width:75%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+    background-color:#ff4c68;
+    margin-top:40px;
+    border-radius:10px;
+
+    border: solid;
+    border-width: 10px;
+    border-right:0px;
+    border-top: 0px;
+    border-radius: 40px;
+    
+    
+ 
+}
+.me{
+    display: flex;
+    height:35%;
+    width:75%;
+    background-color: #F1E7E7;
+    border-radius:30px;
+    border: solid;
+    border-width: 10px;
+    border-right:0px;
+    border-top: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'VT323', monospace;
+   
+}
+.yeh{
+    display: flex;
+    height:35%;
+    width:75%;
+    background-color:#F1E7E7;
+    border-radius:30px;
+    border: solid;
+    border-width: 10px;
+    border-right:0px;
+    border-top: 0px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'VT323', monospace;
+    text-align: center;
+}
+#can{
+    display: flex;
+    flex-direction: column;
+    
+}
+#paper{
+    
+    display: flex;
+    border: solid black;
+    border-width: 10px;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+    border-radius:30px;
+    border-right: 0px;
+    border-top: 0pc;
+    background-color: #fff5fc;
+    justify-content:center;
+    
+
+
+}
+h1.hi{
+    font-family: 'Bungee', cursive;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+#skills{
+    display: flex;
+    
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.skil{
+    font-family: 'Bungee', cursive;
+    font-size: large;  
+    margin-top: 30px;
+}
+
+   
+
+.container-skills{
+     
+    height:100vh;
+    width:75%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+    background-color:#00bfff;
+    margin-top:40px;
+    border-radius:10px;
+    
+    border: solid;
+    border-width: 10px;
+    border-right:0px;
+    border-top: 0px;
+    border-radius: 40px;
+    
+}
+.my-skills{
+    display: flex;
+    height:45%;
+    width:65%;
+    background-color: #F1E7E7;
+    border-radius:30px;
+    border: solid;
+    border-width: 10px;
+    border-right:0px;
+    border-top: 0px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    align-items: center;
+
+}
+.ma-skills{
+    display: flex;
+    height:45%;
+    width:65%;
+    background-color:#F1E7E7;
+    border-radius:30px;
+    border: solid;
+    border-width: 10px;
+    border-right:0px;
+    border-top: 0px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'VT323', monospace;
+    align-items: center;
+  
+
+}
+.projects{
+    font-family: 'Bungee', cursive;
+    font-size: large;  
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+ 
+}
+#about-me{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+#lets-talk{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.lets-chat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width:30%;
+    background-color: #00bfff;
+    border-radius: 30px;
+    border: solid;
+    border-width: 10px;
+    border-right:0px;
+    border-top: 0px;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+.let{
+   color: #F1E7E7;
+   font-family: 'Bungee', cursive;
+}
+#footer{
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.gradient{
+    border-radius: 15px;
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 4s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
